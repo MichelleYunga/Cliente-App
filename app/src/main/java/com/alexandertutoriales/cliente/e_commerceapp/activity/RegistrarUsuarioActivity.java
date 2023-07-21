@@ -77,15 +77,16 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
         ArrayAdapter arrayTipoDoc = new ArrayAdapter(this, R.layout.dropdown_item, tipoDoc);
         dropdownTipoDoc.setAdapter(arrayTipoDoc);
         //LISTA DE DEPARTAMENTOS
-        String[] departamentos = getResources().getStringArray(R.array.departamentos);
+        String[] departamentos = getResources().getStringArray(R.array.Carrera);
         ArrayAdapter arrayDepartamentos = new ArrayAdapter(this, R.layout.dropdown_item, departamentos);
         dropdownDepartamento.setAdapter(arrayDepartamentos);
+
         //LISTA DE PROVINCIAS
-        String[] provincias = getResources().getStringArray(R.array.provincias);
+        String[] provincias = getResources().getStringArray(R.array.Provincia);
         ArrayAdapter arrayProvincias = new ArrayAdapter(this, R.layout.dropdown_item, provincias);
         dropdownProvincia.setAdapter(arrayProvincias);
         //LISTA DE DISTRITOS
-        String[] distritos = getResources().getStringArray(R.array.distritos);
+        String[] distritos = getResources().getStringArray(R.array.Sector);
         ArrayAdapter arrayDistritos = new ArrayAdapter(this, R.layout.dropdown_item, distritos);
         dropdownDistrito.setAdapter(arrayDistritos);
 
