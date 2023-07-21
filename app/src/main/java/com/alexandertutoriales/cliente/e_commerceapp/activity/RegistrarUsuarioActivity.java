@@ -76,6 +76,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
         String[] tipoDoc = getResources().getStringArray(R.array.tipoDoc);
         ArrayAdapter arrayTipoDoc = new ArrayAdapter(this, R.layout.dropdown_item, tipoDoc);
         dropdownTipoDoc.setAdapter(arrayTipoDoc);
+
         //LISTA DE DEPARTAMENTOS
         String[] departamentos = getResources().getStringArray(R.array.Carrera);
         ArrayAdapter arrayDepartamentos = new ArrayAdapter(this, R.layout.dropdown_item, departamentos);
